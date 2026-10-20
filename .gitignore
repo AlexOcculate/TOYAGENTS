@@ -1,0 +1,54 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+
+## 1. Remove the existing repo metadata
+# rm -rf .git
+## 2. Re-initialize
+# git init
+## 3. (Optional) Set default branch name
+# git branch -M main
+## 4. Add everything (respects your .gitignore)
+# git add .
+## 5. First commit
+# git commit -m "Initial commit"
+
+
+# ── _____ render output ──────────────────────────────────
+media/
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Compacted files ──────────────────────────────────────
+
+*.zip
+
+# ── Images ───────────────────────────────────────────────
+
+*.png
+*.jpg
+*.jpeg
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
